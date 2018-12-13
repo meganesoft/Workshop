@@ -1,6 +1,6 @@
 N = int(input())
 
-total = sum([pow(p,N) for p in range(1,5) ])
+total = max([pow(p,N) for p in range(1,5)])
 
 print(total)
 
